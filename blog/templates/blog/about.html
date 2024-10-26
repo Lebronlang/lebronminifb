@@ -1,17 +1,48 @@
 {% extends "blog/base.html" %}
 {% block content %}
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">About</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="card-link">Card link</a>
-                        <a href="#" class="card-link">Another link</a>
-                    </div>
-                </div>
-            </div>    
-        </div>       
+<div class="container my-5">
+    <div class="text-center mb-5">
+        <h1>About Us</h1>
+        <p class="lead">We are a team dedicated to providing excellent service and innovative solutions. Our mission is to deliver quality and build lasting relationships with our clients.</p>
     </div>
+
+    <div class="row text-center">
+        <!-- Team Member 1 -->
+        <div class="col-md-4 mb-4">
+            <div class="card border-0">
+                <img src="https://via.placeholder.com/150" class="card-img-top rounded-circle mx-auto mt-4" alt="Team Member 1" style="width: 150px; height: 150px;">
+                <div class="card-body">
+                    <h5 class="card-title">John Doe</h5>
+                    <p class="card-text">CEO & Founder</p>
+                    <p class="text-muted">Passionate about innovation and leading the team towards success.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Member 2 -->
+        <div class="col-md-4 mb-4">
+            <div class="card border-0">
+                <img src="https://via.placeholder.com/150" class="card-img-top rounded-circle mx-auto mt-4" alt="Team Member 2" style="width: 150px; height: 150px;">
+                <div class="card-body">
+                    <h5 class="card-title">Jane Smith</h5>
+                    <p class="card-text">Lead Developer</p>
+                    <p class="text-muted">Expert in coding and developing innovative solutions for our clients.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Member 3 -->
+        <div class="col-md-4 mb-4">
+            <div class="card border-0">
+                <img src="https://via.placeholder.com/150" class="card-img-top rounded-circle mx-auto mt-4" alt="Team Member 3" style="width: 150px; height: 150px;">
+                <div class="card-body">
+                    <h5 class="card-title">Michael Brown</h5>
+                    <p class="card-text">Project Manager</p>
+                    <p class="text-muted">Ensures that projects run smoothly and meet our high standards.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 {% endblock %}

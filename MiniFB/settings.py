@@ -34,8 +34,7 @@ INSTALLED_APPS = [
     'jazzmin',
     'blog.apps.BlogConfig', # APP 1
     'user.apps.UserConfig', # APP 2
-    'crispy_forms', # Library
-    'crispy_bootstrap5', # Library
+  
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -134,4 +133,3 @@ JAZZMIN_SETTINGS = {
     "site_title": "Mini Facebook",
 }
 
-CRISPY_TEMPLATE_PACK = 'bootstrap5'
